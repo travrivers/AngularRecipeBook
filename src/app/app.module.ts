@@ -22,6 +22,8 @@ import { RecipeService } from './recipes/recipe.service';
 import { DataStorageService } from './shared/data-storage.service';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SigninComponent } from './auth/signin/signin.component';
+import { AuthComponent } from './auth/auth.component';
+import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { SigninComponent } from './auth/signin/signin.component';
     RecipeStartComponent,
     RecipeEditComponent,
     SignupComponent,
-    SigninComponent
+    SigninComponent,
+    LoadingSpinnerComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
